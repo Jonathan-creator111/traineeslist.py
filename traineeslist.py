@@ -13,7 +13,9 @@ trainees.append("56")
 print(trainees)
 #4. Using a method add the name Mike between James and Mary
 trainees = ["John", [2, ["James","Mary"]]]
-trainees.append("Mike")
+print(trainees[1])
+print(trainees[1][1])
+trainees[1][1].insert(1,"Mike")
 print(trainees)
 #5. Change the value of 2 to 8
 trainees = ["John", [2, ["James","Mary"]]]
@@ -22,6 +24,8 @@ print(trainees)
 #6. Remove John and Mary from the list.
 trainees = ["John", [2, ["James","Mary"]]]
 trainees.remove("John")
+print(trainees)
+trainees[0][1].remove("Mary")
 print(trainees)
 #7. Using a function, determine the length of the list
 trainees = ["John", [2, ["James","Mary"]]]
